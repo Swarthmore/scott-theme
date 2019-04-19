@@ -1411,9 +1411,9 @@ $display_header_top = "yes";
 					<div class="fullscreen_search_inner">
 						<form role="search" action="<?php echo esc_url(home_url('/')); ?>" class="fullscreen_search_form" method="get">
 							<div class="form_holder">
-								<span class="search_label"><?php _e('Search:', 'qode'); ?></span>
+								<label for="site-search-input" class="search_label"><?php _e('Search:', 'qode'); ?></label>
 								<div class="field_holder">
-									<input type="text"  name="s" class="search_field" autocomplete="off" />
+									<input type="text" id="site-search-input" name="s" class="search_field" autocomplete="off" />
 									<div class="line"></div>
 								</div>
                                 <a class="qode_search_submit search_submit" href="javascript:void(0)">
