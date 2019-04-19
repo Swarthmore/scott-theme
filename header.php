@@ -476,7 +476,8 @@ $display_header_top = "yes";
 					 <?php } ?>
 						<div class="form_holder_outer">
 							<div class="form_holder">
-								<input type="text" placeholder="<?php _e('Search', 'qode'); ?>" name="s" class="qode_search_field" autocomplete="off" />
+								<label for="site-search-bar-input">Search:</label>
+								<input type="text" id="site-search-bar-input" placeholder="<?php _e('Search', 'qode'); ?>" name="s" class="qode_search_field" autocomplete="off" />
 								<a class="qode_search_submit" href="javascript:void(0)">
                                     <?php $qodeIconCollections->getSearchIcon(qodef_option_get_value('search_icon_pack')); ?>
 								</a>
