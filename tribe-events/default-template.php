@@ -16,10 +16,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 get_header();
 ?>
-<div class="title_outer title_without_animation with_image"  data-animation="yes"  data-height="70" style="margin-bottom: 60px;">
-	<div class="title title_size_medium  position_left " style="height:70px;">
-	<div class="image responsive"><img itemprop="image" src="/wp-content/uploads/2017/06/bkgd-image-band-6.jpg" alt="&nbsp;" /> 
-	</div>
+<div class="title_outer title_without_animation"  data-animation="yes"  data-height="70" style="margin-bottom: 60px;">
+	<div class="title title_size_medium  position_left " style="height:70px; background-color:#06436d;">
 		<div class="title_holder"  data-0="opacity:1" data-300="opacity:0" >
 			<div class="container">
 				<div class="container_inner clearfix">
